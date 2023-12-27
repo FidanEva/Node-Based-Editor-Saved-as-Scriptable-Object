@@ -1,0 +1,980 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4908fe09b5416f84eb7e954a6fd0f117, type: 3}
+  m_Name: SlimesEvolveData
+  m_EditorClassIdentifier: 
+  evolveStages:
+  - id: 0
+    slimeType: 1
+    rarityLevel: 0
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 299
+      width: 0.015625
+      height: 0.015625
+  - id: 1
+    slimeType: 2
+    rarityLevel: 0
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 741
+      y: 112.19989
+      width: 200
+      height: 70
+  - id: 2
+    slimeType: 3
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1069
+      y: 104.19989
+      width: 200
+      height: 70
+  - id: 3
+    slimeType: 4
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1474
+      y: -7.8000336
+      width: 200
+      height: 70
+  - id: 4
+    slimeType: 5
+    rarityLevel: 0
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 749
+      y: 254.20006
+      width: 200
+      height: 70
+  - id: 5
+    slimeType: 6
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1075
+      y: 251.20006
+      width: 200
+      height: 70
+  - id: 6
+    slimeType: 7
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1477
+      y: 191.20001
+      width: 200
+      height: 70
+  - id: 7
+    slimeType: 8
+    rarityLevel: 0
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 758
+      y: 398.2
+      width: 200
+      height: 70
+  - id: 8
+    slimeType: 9
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 397.2
+      width: 200
+      height: 70
+  - id: 9
+    slimeType: 10
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1540
+      y: 442.2
+      width: 200
+      height: 70
+  - id: 10
+    slimeType: 11
+    rarityLevel: 0
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 770
+      y: 544.2
+      width: 200
+      height: 70
+  - id: 11
+    slimeType: 12
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1085
+      y: 540.2
+      width: 200
+      height: 70
+  - id: 12
+    slimeType: 13
+    rarityLevel: 1
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1401
+      y: 728.2
+      width: 200
+      height: 70
+  - id: 13
+    slimeType: 14
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1975
+      y: 62.199966
+      width: 200
+      height: 70
+  - id: 14
+    slimeType: 15
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2247
+      y: -91.79997
+      width: 200
+      height: 70
+  - id: 15
+    slimeType: 16
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1963
+      y: 543.19995
+      width: 200
+      height: 70
+  - id: 16
+    slimeType: 17
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2337
+      y: 695.19995
+      width: 200
+      height: 70
+  - id: 17
+    slimeType: 18
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2038
+      y: 306.2
+      width: 200
+      height: 70
+  - id: 18
+    slimeType: 19
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2368
+      y: 137.20001
+      width: 200
+      height: 70
+  - id: 19
+    slimeType: 20
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 1925
+      y: 788.19995
+      width: 200
+      height: 70
+  - id: 20
+    slimeType: 21
+    rarityLevel: 2
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2237
+      y: 947.19995
+      width: 200
+      height: 70
+  - id: 21
+    slimeType: 22
+    rarityLevel: 3
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2834
+      y: 94.20006
+      width: 200
+      height: 70
+  - id: 22
+    slimeType: 23
+    rarityLevel: 3
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2737
+      y: 868.19995
+      width: 200
+      height: 70
+  - id: 23
+    slimeType: 24
+    rarityLevel: 3
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2719
+      y: 604.2
+      width: 200
+      height: 70
+  - id: 24
+    slimeType: 25
+    rarityLevel: 3
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 2729
+      y: 332.2
+      width: 200
+      height: 70
+  - id: 25
+    slimeType: 26
+    rarityLevel: 4
+    baseElements: 
+    prefab: {fileID: 0}
+    prices:
+      sickPrice: 0
+      boredPrice: 0
+      normalPrice: 0
+      contentPrice: 0
+      excitedPrice: 0
+    rect:
+      serializedVersion: 2
+      x: 3183
+      y: 493.2
+      width: 200
+      height: 70
+  evolveTransitions:
+  - fromId: 0
+    toId: 1
+    conditions:
+    - element: 0
+      min: 30
+      max: 50
+    - element: 1
+      min: 0
+      max: 15
+  - fromId: 1
+    toId: 2
+    conditions:
+    - element: 0
+      min: 90
+      max: 120
+    - element: 1
+      min: 0
+      max: 15
+  - fromId: 2
+    toId: 3
+    conditions:
+    - element: 0
+      min: 150
+      max: 180
+    - element: 1
+      min: 0
+      max: 20
+  - fromId: 0
+    toId: 4
+    conditions:
+    - element: 0
+      min: 0
+      max: 15
+    - element: 1
+      min: 30
+      max: 50
+  - fromId: 4
+    toId: 5
+    conditions:
+    - element: 0
+      min: 0
+      max: 15
+    - element: 1
+      min: 90
+      max: 120
+  - fromId: 5
+    toId: 6
+    conditions:
+    - element: 0
+      min: 0
+      max: 20
+    - element: 1
+      min: 150
+      max: 180
+  - fromId: 0
+    toId: 7
+    conditions:
+    - element: 2
+      min: 30
+      max: 50
+  - fromId: 7
+    toId: 8
+    conditions:
+    - element: 2
+      min: 90
+      max: 120
+  - fromId: 8
+    toId: 9
+    conditions:
+    - element: 2
+      min: 150
+      max: 180
+  - fromId: 0
+    toId: 10
+    conditions:
+    - element: 3
+      min: 30
+      max: 50
+  - fromId: 10
+    toId: 11
+    conditions:
+    - element: 3
+      min: 90
+      max: 120
+  - fromId: 11
+    toId: 12
+    conditions:
+    - element: 3
+      min: 150
+      max: 180
+  - fromId: 3
+    toId: 13
+    conditions:
+    - element: 0
+      min: 240
+      max: 270
+    - element: 2
+      min: 240
+      max: 270
+  - fromId: 9
+    toId: 13
+    conditions:
+    - element: 0
+      min: 240
+      max: 270
+    - element: 2
+      min: 240
+      max: 270
+  - fromId: 2
+    toId: 13
+    conditions:
+    - element: 0
+      min: 200
+      max: 250
+    - element: 2
+      min: 200
+      max: 250
+  - fromId: 8
+    toId: 13
+    conditions:
+    - element: 0
+      min: 200
+      max: 250
+    - element: 2
+      min: 200
+      max: 250
+  - fromId: 13
+    toId: 14
+    conditions:
+    - element: 0
+      min: 300
+      max: 330
+    - element: 2
+      min: 300
+      max: 330
+  - fromId: 3
+    toId: 15
+    conditions:
+    - element: 0
+      min: 240
+      max: 270
+    - element: 3
+      min: 240
+      max: 270
+  - fromId: 12
+    toId: 15
+    conditions:
+    - element: 0
+      min: 240
+      max: 270
+    - element: 3
+      min: 240
+      max: 270
+  - fromId: 2
+    toId: 15
+    conditions:
+    - element: 0
+      min: 200
+      max: 250
+    - element: 3
+      min: 200
+      max: 250
+  - fromId: 11
+    toId: 15
+    conditions:
+    - element: 0
+      min: 60
+      max: 100
+    - element: 3
+      min: 60
+      max: 100
+  - fromId: 15
+    toId: 16
+    conditions:
+    - element: 0
+      min: 300
+      max: 330
+    - element: 3
+      min: 300
+      max: 330
+  - fromId: 6
+    toId: 17
+    conditions:
+    - element: 1
+      min: 240
+      max: 270
+    - element: 2
+      min: 240
+      max: 270
+  - fromId: 9
+    toId: 17
+    conditions:
+    - element: 1
+      min: 240
+      max: 270
+    - element: 2
+      min: 240
+      max: 270
+  - fromId: 5
+    toId: 17
+    conditions:
+    - element: 1
+      min: 200
+      max: 250
+    - element: 2
+      min: 200
+      max: 250
+  - fromId: 8
+    toId: 17
+    conditions:
+    - element: 1
+      min: 200
+      max: 250
+    - element: 2
+      min: 200
+      max: 250
+  - fromId: 6
+    toId: 19
+    conditions:
+    - element: 1
+      min: 240
+      max: 270
+    - element: 3
+      min: 240
+      max: 270
+  - fromId: 12
+    toId: 19
+    conditions:
+    - element: 1
+      min: 240
+      max: 270
+    - element: 3
+      min: 240
+      max: 270
+  - fromId: 5
+    toId: 19
+    conditions:
+    - element: 1
+      min: 200
+      max: 250
+    - element: 3
+      min: 200
+      max: 250
+  - fromId: 11
+    toId: 19
+    conditions:
+    - element: 1
+      min: 200
+      max: 240
+    - element: 3
+      min: 200
+      max: 240
+  - fromId: 19
+    toId: 20
+    conditions:
+    - element: 1
+      min: 300
+      max: 330
+    - element: 3
+      min: 300
+      max: 330
+  - fromId: 14
+    toId: 21
+    conditions:
+    - element: 0
+      min: 390
+      max: 440
+    - element: 1
+      min: 390
+      max: 440
+    - element: 2
+      min: 390
+      max: 440
+  - fromId: 18
+    toId: 21
+    conditions:
+    - element: 0
+      min: 390
+      max: 440
+    - element: 1
+      min: 390
+      max: 440
+    - element: 2
+      min: 390
+      max: 440
+  - fromId: 13
+    toId: 21
+    conditions:
+    - element: 0
+      min: 350
+      max: 400
+    - element: 1
+      min: 350
+      max: 400
+    - element: 2
+      min: 350
+      max: 400
+  - fromId: 17
+    toId: 21
+    conditions:
+    - element: 0
+      min: 350
+      max: 400
+    - element: 1
+      min: 350
+      max: 400
+    - element: 2
+      min: 350
+      max: 400
+  - fromId: 16
+    toId: 22
+    conditions:
+    - element: 0
+      min: 390
+      max: 440
+    - element: 1
+      min: 390
+      max: 440
+    - element: 3
+      min: 390
+      max: 440
+  - fromId: 20
+    toId: 22
+    conditions:
+    - element: 0
+      min: 390
+      max: 440
+    - element: 1
+      min: 390
+      max: 440
+    - element: 3
+      min: 390
+      max: 440
+  - fromId: 15
+    toId: 22
+    conditions:
+    - element: 0
+      min: 350
+      max: 400
+    - element: 1
+      min: 350
+      max: 400
+    - element: 3
+      min: 350
+      max: 400
+  - fromId: 19
+    toId: 22
+    conditions:
+    - element: 0
+      min: 350
+      max: 400
+    - element: 1
+      min: 350
+      max: 400
+    - element: 3
+      min: 350
+      max: 400
+  - fromId: 16
+    toId: 23
+    conditions:
+    - element: 0
+      min: 390
+      max: 440
+    - element: 2
+      min: 390
+      max: 440
+    - element: 3
+      min: 390
+      max: 440
+  - fromId: 15
+    toId: 23
+    conditions:
+    - element: 0
+      min: 350
+      max: 400
+    - element: 2
+      min: 350
+      max: 400
+    - element: 3
+      min: 350
+      max: 400
+  - fromId: 14
+    toId: 23
+    conditions:
+    - element: 0
+      min: 390
+      max: 440
+    - element: 2
+      min: 390
+      max: 440
+    - element: 3
+      min: 390
+      max: 440
+  - fromId: 13
+    toId: 23
+    conditions:
+    - element: 0
+      min: 350
+      max: 400
+    - element: 2
+      min: 350
+      max: 400
+    - element: 3
+      min: 350
+      max: 400
+  - fromId: 18
+    toId: 24
+    conditions:
+    - element: 1
+      min: 390
+      max: 440
+    - element: 2
+      min: 390
+      max: 440
+    - element: 3
+      min: 390
+      max: 440
+  - fromId: 17
+    toId: 24
+    conditions:
+    - element: 1
+      min: 350
+      max: 400
+    - element: 2
+      min: 350
+      max: 400
+    - element: 3
+      min: 350
+      max: 400
+  - fromId: 20
+    toId: 24
+    conditions:
+    - element: 1
+      min: 390
+      max: 440
+    - element: 2
+      min: 390
+      max: 440
+    - element: 3
+      min: 390
+      max: 440
+  - fromId: 19
+    toId: 24
+    conditions:
+    - element: 1
+      min: 350
+      max: 400
+    - element: 2
+      min: 350
+      max: 400
+    - element: 3
+      min: 350
+      max: 400
+  - fromId: 22
+    toId: 25
+    conditions:
+    - element: 0
+      min: 500
+      max: 550
+    - element: 1
+      min: 500
+      max: 550
+    - element: 2
+      min: 500
+      max: 550
+    - element: 3
+      min: 500
+      max: 550
+  - fromId: 23
+    toId: 25
+    conditions:
+    - element: 0
+      min: 500
+      max: 550
+    - element: 1
+      min: 500
+      max: 550
+    - element: 2
+      min: 500
+      max: 550
+    - element: 3
+      min: 500
+      max: 550
+  - fromId: 24
+    toId: 25
+    conditions:
+    - element: 0
+      min: 500
+      max: 550
+    - element: 1
+      min: 500
+      max: 550
+    - element: 2
+      min: 500
+      max: 550
+    - element: 3
+      min: 500
+      max: 550
+  - fromId: 21
+    toId: 25
+    conditions:
+    - element: 0
+      min: 505
+      max: 550
+    - element: 3
+      min: 500
+      max: 550
+    - element: 1
+      min: 500
+      max: 550
+    - element: 2
+      min: 500
+      max: 550
+  - fromId: 17
+    toId: 18
+    conditions:
+    - element: 1
+      min: 300
+      max: 330
+    - element: 2
+      min: 300
+      max: 330

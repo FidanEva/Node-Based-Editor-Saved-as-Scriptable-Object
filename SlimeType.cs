@@ -1,0 +1,33 @@
+namespace Code.Scripts.Attributes
+{
+    public enum SlimeType
+    {
+        None,
+        Standard,
+        Ember,
+        Blaze,
+        Flame,
+        Drroplet,
+        Wave,
+        Aqua,
+        Pebble,
+        Boulder,
+        Geo,
+        Sprout,
+        Blossom,
+        Verdant,
+        Magma,
+        Volcano,
+        Ash,
+        Emberwood,
+        Mud,
+        Oasis,
+        Dew,
+        Misty,
+        Fumarole,
+        Mistflame,
+        LavaBloom,
+        Marshland,
+        ElementalHarmony,
+    }
+}
